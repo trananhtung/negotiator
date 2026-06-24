@@ -1,0 +1,25 @@
+[package]
+name = "negotiator"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.81"
+description = "HTTP content negotiation for Accept, Accept-Charset, Accept-Encoding, and Accept-Language headers. A faithful port of the `negotiator` npm package. Zero dependencies, no_std."
+documentation = "https://docs.rs/negotiator"
+repository = "https://github.com/trananhtung/negotiator"
+homepage = "https://github.com/trananhtung/negotiator"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["http", "accept", "content-negotiation", "mime", "header"]
+categories = ["web-programming", "no-std"]
+authors = ["trananhtung"]
+exclude = ["/.github", "/.gitignore"]
+
+[dependencies]
+
+[lints.rust]
+missing_docs = "warn"
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
